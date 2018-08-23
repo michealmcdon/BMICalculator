@@ -1,0 +1,6 @@
+MainPackage=C:\Users\Micheál\source\repos\BMICalculator\BMICalculator\bin\x86\Release\BMICalculator_1.1.0.0_x86.appx
+SymbolPackage=C:\Users\Micheál\source\repos\BMICalculator\BMICalculator\AppPackages\BMICalculator_1.1.0.0_Test\BMICalculator_1.1.0.0_x86.appxsym
+ResourcePack=C:\Users\Micheál\source\repos\BMICalculator\BMICalculator\bin\x86\Release\BMICalculator_1.1.0.0_scale-100.appx
+ResourcePack=C:\Users\Micheál\source\repos\BMICalculator\BMICalculator\bin\x86\Release\BMICalculator_1.1.0.0_scale-125.appx
+ResourcePack=C:\Users\Micheál\source\repos\BMICalculator\BMICalculator\bin\x86\Release\BMICalculator_1.1.0.0_scale-150.appx
+ResourcePack=C:\Users\Micheál\source\repos\BMICalculator\BMICalculator\bin\x86\Release\BMICalculator_1.1.0.0_scale-400.appx
