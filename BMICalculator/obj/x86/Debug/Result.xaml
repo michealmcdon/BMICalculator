@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="BMICalculator.Result"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BMICalculator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image Margin="6,0,9,0">
+            <Image.Source>
+                <BitmapImage DecodePixelWidth="300" UriSource="/assets/logo.png" />
+            </Image.Source>
+        </Image>
+        
+        <TextBlock TextAlignment="Center" FontSize="75" Text="Your BMI is"></TextBlock>
+        <TextBlock x:ConnectionId='1' x:Name="Results" TextAlignment="Center" FontSize="75" Text=""></TextBlock>
+        <TextBlock x:ConnectionId='2' x:Name="YouAre" TextAlignment="Center" FontSize="75" Text=""></TextBlock>
+
+        <Button x:ConnectionId='3' HorizontalAlignment="Center"                             x:Name="ButtonEntry" FontSize="75" Content="Back"></Button>
+        
+    </StackPanel>
+</Page>
+

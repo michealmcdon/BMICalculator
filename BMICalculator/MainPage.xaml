@@ -7,7 +7,19 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
-    </Grid>
+    <StackPanel HorizontalAlignment="Center" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" >
+        
+        
+        
+        <Image Margin="6,0,9,0">
+            <Image.Source>
+                <BitmapImage DecodePixelWidth="300" UriSource="/assets/logo.png" />
+            </Image.Source>
+        </Image>
+        <TextBlock TextAlignment="Center" FontSize="75" Text="Enter Weight in Kg"></TextBlock>
+        <TextBox TextAlignment="Center" x:Name="WeightEntry" FontSize="75" ></TextBox>
+        <TextBlock TextAlignment="Center" FontSize="75" Text="Enter Height in Meters"></TextBlock>
+        <TextBox TextAlignment="Center" x:Name="HeightEntry" FontSize="75" ></TextBox>
+        <Button HorizontalAlignment="Center" Tapped="ButtonEntry_Tapped" x:Name="ButtonEntry" FontSize="75" Content="GO"></Button>
+    </StackPanel> 
 </Page>
